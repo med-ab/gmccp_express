@@ -1,0 +1,31 @@
+:root {
+  font-family: sans-serif;
+}
+body {
+  margin: 0%;
+}
+nav {
+  display: flex;
+  >a {
+    flex: 1;
+    background: whitesmoke;
+    filter: invert();
+    border-radius: 1.5vw 1.5vw 0vw 0vw;
+    margin: 0% 0.1%;
+    padding: 0.5% 1%;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    &.active {
+      font-weight: normal;
+    }
+  }
+}
+main {
+  padding: 0% 5%;
+}
+p,
+li {
+  font-size: larger;
+}
